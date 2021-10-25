@@ -338,7 +338,7 @@ function draw() {
     for(var i=0;i<BossGroup.length;i++){
       if(BossGroup[i].isTouching(shooter)){
          BossGroup[i].destroy()
-         life=life-1
+         life=life-3
       }
     }
   }
